@@ -7,4 +7,8 @@
 [Yubin Hu](https://github.com/AlbertHuyb), Sheng Ye, Wang Zhao, Matthieu Lin, [Yuze He](https://github.com/hyz317/), Yu-Hui Wen, Ying He, Yong-Jin Liu <br>
 AAAI 2024
 > 
-We will release the code as soon as possible.
+We will release the full code as soon as possible.
+
+[x] Release the code of training on an example object data.
+[ ] Release the dataset pre-processing code.
+[ ] Update readme.
