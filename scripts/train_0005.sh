@@ -10,11 +10,11 @@ for obj_id in 9
 do
     for exp_name in newfilled_5
     do
-        python ../exp_runner.py --mode train --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage1.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name}
+        python ./exp_runner.py --mode train --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage1.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name}
 
-        python ../exp_runner.py --mode train --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage2.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name} --is_continue
+        python ./exp_runner.py --mode train --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage2.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name} --is_continue
 
-        python ../exp_runner.py --mode validate_mesh --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage2.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name} --is_continue
+        python ./exp_runner.py --mode validate_mesh --conf ./confs/paper/${scene_name}-obj${obj_id}-${exp_name}-default-stage2.conf --gpu ${gpu_id} --scene_name ${scene_name}_scannet_obj_${obj_id}_${exp_name} --is_continue
 
     done
 done

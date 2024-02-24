@@ -24,7 +24,7 @@ import utils.utils_geometry as GeoUtils
 import utils.utils_image as ImageUtils
 import utils.utils_training as TrainingUtils
 
-import CLIP.clip as clip
+import clip 
 from PIL import Image
 from tqdm import tqdm
 import open3d as o3d
