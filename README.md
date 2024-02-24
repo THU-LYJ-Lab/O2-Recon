@@ -9,6 +9,6 @@ AAAI 2024
 > 
 We will release the full code as soon as possible.
 
-[x] Release the code of training on an example object data.
-[ ] Release the dataset pre-processing code.
-[ ] Update readme.
+- [x] Release the code of training on an example object data.
+- [ ] Release the dataset pre-processing code.
+- [ ] Update readme.
