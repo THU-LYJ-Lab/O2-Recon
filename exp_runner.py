@@ -30,12 +30,12 @@ from tqdm import tqdm
 import open3d as o3d
 
 class Runner:
-    def __init__(self, conf_path, scene_name = '', mode='train', model_type='', is_continue=False, checkpoint_id = -1):
+    def __init__(self, conf_path, conf, scene_name = '', mode='train', model_type='', is_continue=False, checkpoint_id = -1):
         # Initial setting: Genreal
         self.device = torch.device('cuda')
         self.conf_path = conf_path
            
-        self.conf = ConfigFactory.parse_file(conf_path)
+        self.conf = conf
         self.dataset_type = self.conf['general.dataset_type']
         self.scan_name = self.conf['general.scan_name']
         if len(scene_name)>0:
@@ -1541,10 +1541,15 @@ if __name__ == '__main__':
     parser.add_argument('--nvs', action= 'store_true', help='Novel view synthesis' )
     parser.add_argument('--save_render_peak', action= 'store_true', help='Novel view synthesis' )
     parser.add_argument('--scene_name', type=str, default='', help='Scene or scan name')
+    
     args = parser.parse_args()
 
+    conf_data = ConfigFactory.parse_file(args.conf)
+    conf_data.put('general.scan_name', args.scene_name)
+    conf_data.put('general.exp_name', 'exp_%s'%(args.scene_name))
+    
     torch.cuda.set_device(args.gpu)
-    runner = Runner(args.conf, args.scene_name, args.mode, args.model_type, args.is_continue, args.checkpoint_id)
+    runner = Runner(args.conf, conf_data, args.scene_name, args.mode, args.model_type, args.is_continue, args.checkpoint_id)
 
     if args.mode == 'train':
         runner.train()

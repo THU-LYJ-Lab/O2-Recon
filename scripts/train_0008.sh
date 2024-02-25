@@ -1,7 +1,7 @@
 # run the same model on different objects
-scene_name=scene0005_00
+scene_name=scene0008_00
 gpu_id=5
-for obj_id in 1 2 4 5 6 8 9 10 11 17
+for obj_id in 8
 do
     for exp_name in inpainted
     do

@@ -14,3 +14,5 @@ lpips
 numba
 pyrender
 pycuda
+transformers
+diffusers
