@@ -3,3 +3,4 @@ dataset
 confs/*
 scannet
 exps-paper
+evaluation/scannet_gt

@@ -16,3 +16,4 @@ pyrender
 pycuda
 transformers
 diffusers
+plyfile
