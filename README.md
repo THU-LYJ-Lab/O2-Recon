@@ -9,10 +9,9 @@ AAAI 2024
 > 
 We will release the full code as soon as possible.
 
-<<<<<<< HEAD
-[x] Release the code of training on an example object data.
-[ ] Release the dataset pre-processing code.
-[ ] Update readme.
+- [x] Release the code of training on an example object data.
+- [ ] Release the dataset pre-processing code.
+- [ ] Update readme.
 
 ## Environmental Setup
 
@@ -64,8 +63,3 @@ And then run
 python exp_preprocess.py --data_type scannet-with-inpaint --scannet_root=/path/to/O2-Recon/scannet/ --neus_root=/path/to/O2-Recon/dataset/indoor-paper/ --dir_snu_code /path/to/O2-Recon/preprocess/surface_normal_uncertainty/
 ```
 
-=======
-- [x] Release the code of training on an example object data.
-- [ ] Release the dataset pre-processing code.
-- [ ] Update readme.
->>>>>>> 9c10f1098e6341729f5ac537715ac542be12a037
