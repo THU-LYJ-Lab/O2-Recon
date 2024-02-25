@@ -1,3 +1,0 @@
-[submodule "./preprocess/surface_normal_uncertainty/"]
-	path = ./preprocess/surface_normal_uncertainty
-	url = https://github.com/baegwangbin/surface_normal_uncertainty.git
