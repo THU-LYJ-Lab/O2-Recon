@@ -77,6 +77,7 @@ And then run
 ```
 python exp_preprocess.py --data_type scannet-with-inpaint --scannet_root=/path/to/O2-Recon/scannet/ --neus_root=/path/to/O2-Recon/dataset/indoor-paper/ --dir_snu_code /path/to/O2-Recon/preprocess/surface_normal_uncertainty/
 ```
+Here you need to use **absolute paths**.
 
 ## Training
 
