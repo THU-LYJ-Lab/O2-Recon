@@ -63,7 +63,7 @@ This script extracts objects from the scannet scenes according to instance masks
 
 #### 3. Select and Create In-painting Masks
 
-You can download our created masks from [here](some/url). Or you can generate the masks and name them following the same manner. We utilize the `xx_class_inpaint mask.png` file under each directory.
+You can download our created masks ([TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/6e8a12e7c487471a9150/), [GoogleDrive](https://drive.google.com/file/d/1YU8ETAGmpy5BeBWlDIQYloMiUqTNEHII/view?usp=drive_link)). Or you can generate the masks and name them following the same manner. We utilize the `xx_class_inpaint mask.png` file under each directory.
 
 After downloaded, place the directories to correct locations. For example, place the `only-seg-0008-obj10` directory under `/path/to/O2-Recon/scannet/object_original_with_clip/scene0008_00_scannet_obj_10/`. 
 
