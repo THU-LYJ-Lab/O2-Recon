@@ -32,7 +32,8 @@ Install the required packages:
   pip install git+https://github.com/openai/CLIP.git
   ```
 
-Download the normal prediction model `scannet_neuris_retrain.pt` from [here](https://connecthkuhk-my.sharepoint.com/personal/jiepeng_connect_hku_hk/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2Fjiepeng%5Fconnect%5Fhku%5Fhk%2FDocuments%2FGitHub%2FNeuRIS%2Fpretrained%20normal%20network%2Fsnu) and store it to `./preprocess/surface_normal_uncertainty/checkpoints/`
+Download the normal prediction model `scannet_neuris_retrain.pt` from folder `jiepeng@connect.hku.hk > GitHub >NeuRlS > pretrained normal network > snu
+` in this [OneDrive](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/jiepeng_connect_hku_hk/Er7bpbBAxMBBnZfDvdvrO1kBu2tkTpnMw9XXfeuQzkwOlA?e=Yf0Bbj) and store it to `./preprocess/surface_normal_uncertainty/checkpoints/`
 
 
 
