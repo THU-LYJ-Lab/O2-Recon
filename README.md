@@ -10,7 +10,7 @@ AAAI 2024
 
 ## News
 
-
+🌟 [2024/11/12] We've released all of the related code and [[data](https://huggingface.co/datasets/AlbertHuyb/O2-Recon/tree/main)]!
 
 ## Introduction
 O2-Recon is a 3D surface reconstruction framework for occluded object. It utilizes a pre-trained diffusion model to in-paint the occluded regions in 2D image domain, and enhances the reconstruction of unseen regions with cascaded SDF branch and CLIP semantic consistency loss.
