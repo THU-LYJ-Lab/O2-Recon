@@ -1,6 +1,6 @@
 # $\rm O^2$-Recon
 
-[[`Paper`](https://arxiv.org/abs/2308.09591)]
+[[`Paper`](https://arxiv.org/abs/2308.09591)][[`BibTeX`](#citation)]
 
 
 > $\rm O^2$-Recon: Completing 3D Reconstruction of Occluded Objects in the Scene with a Pre-trained 2D Diffusion Model <br>
