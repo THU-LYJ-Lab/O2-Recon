@@ -33,8 +33,9 @@ if __name__ == '__main__':
         
     if dataset_type == 'scannet-with-inpaint':
         # for scene_name in ['scene0008_00', 'scene0005_00', 'scene0050_00', 'scene0461_00', 'scene0549_00', 'scene0616_00']:
-        for scene_name in ['scene0008_00']:
-            object_ids = [x.split('_')[-1] for x in os.listdir(dir_root_scannet) if scene_name in x]
+        for scene_name in ['scene0616_00']:
+            object_ids = ['9']
+            # object_ids = [x.split('_')[-1] for x in os.listdir(dir_root_scannet) if scene_name in x]
 
             lis_name_scenes = [f'{scene_name}_scannet_obj_{id}' for id in object_ids]
 
